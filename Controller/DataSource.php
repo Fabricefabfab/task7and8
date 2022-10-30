@@ -6,13 +6,13 @@ namespace Phppot;
 class DataSource
 {
     // making constants declaration for better encapsulation
-    const HOST = 'localhost';
+    const HOST = 'us-cdbr-east-06.cleardb.net';
 
-    const USERNAME = 'root';
+    const USERNAME = 'b88e75d760c796';
 
-    const PASSWORD = '';
+    const PASSWORD = 'fad3dcb5';
 
-    const DATABASENAME = 'shoppn';
+    const DATABASENAME = 'heroku_4df11ae70b16764';
 
     private $conn;
     
