@@ -105,7 +105,7 @@ class Member
             session_start();
             $_SESSION["email"] = $memberRecord[0]["email"];
             session_write_close();
-            $url = "./home.php";
+            $url = "Admin/index.php"; //open to the admin
             header("Location: $url");
         } else if ($loginPassword == 0) {
             $loginStatus = "Invalid email or password.";
